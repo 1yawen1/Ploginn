@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+
+
+
+
+
+  <style> 
+    #div1 {
+      height: 27px;
+      width: 105px;
+      position: absolute;
+      left: 800px;
+      top: 300px;
+      border-radius: 8px;
+      background: rgba(5, 153, 173, 0.1);
+      transition: width 0.5s, height 0.5s;
+      border: solid 5px rgba(4, 118, 134, 0.8);     
+    }
+    #div2{
+      height: 30px;
+      width: 131px;
+      position: absolute;
+      left: 759px;
+      top: 250px;
+      border-radius: 8px;
+      background: rgba(124, 81, 247, 0.1);
+      border: 4px solid rgba(124, 81, 247, 0.8);
+    }
+    #div3{
+      height: 30px;
+      width: 131px;
+      left: 968px;
+      position: absolute;
+      top: 146px;
+      border-radius: 8px;
+      background: rgba(51, 133, 255, 0.1);
+      border: 4px solid rgba(6, 103, 247, 0.8);
+    }
+    #div4{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      left: 983px;
+      top: 217px;
+      border-radius: 50%;
+      background: rgba(128, 131, 132, 1);
+      border: 4px solid rgba(77, 77, 78, 1);
+      color: white;
+    }
+    #div5{
+      height: 30px;
+      width: 164px;
+      position: absolute;
+      left: 1130px;
+      top: 248px;
+      border-radius: 8px;
+      background: rgba(248, 170, 54, 0.1);
+      border: 4px solid rgba(248, 170, 54, 0.8);
+    }
+    #div6{
+      height: 30px;
+      width: 98px;
+      position: absolute;
+      left: 1111px;
+      top: 326px;
+      border-radius: 8px;
+      background: rgba(248, 170, 54, 0.1);
+      border: 4px solid rgba(248, 170, 54, 0.8);
+    }
+    #div7{
+      height: 30px;
+      width: 114px;
+      position: absolute;
+      left: 1221px;
+      top: 326px;
+      border-radius: 8px;
+      background: rgba(248, 170, 54, 0.1);
+      border: 4px solid rgba(248, 170, 54, 0.8);
+    }
+    #div8{
+      height: 30px;
+      width: 212px;
+      position: absolute;
+      left: 930px;
+      top: 378px;
+      border-radius: 8px;
+      background: rgba(246, 83, 83, 0.1);
+      border: 4px solid rgba(246, 83, 83, 0.8);
+    }
+    #div9{
+      height: 30px;
+      width: 130px;
+      position: absolute;
+      left: 970px;
+      top: 443px;
+      border-radius: 8px;
+      background: rgba(246, 83, 83, 0.1);
+      border: 4px solid rgba(246, 83, 83, 0.8);
+    }
+    #div10{
+      height: 2.842170943040401e-14px;
+      width: 88px;
+      position: absolute;
+      left: 894px;top: 265px;
+      border-radius: 0px;
+      border: 1px solid rgba(66, 11, 224, 1);
+    }
+    #div11{
+      height: 38px;
+      width: 0px;
+      position: absolute;
+      left: 969px;
+      top: 265px;
+      border-radius: 1px;
+      border: 1px solid rgba(4, 118, 134, 1);
+    }
+    #div12{
+      height: 37.000000000000036px;
+      width: 0px;
+      position: absolute;
+      left: 1034px;
+      top: 180px;
+      border-radius: 1px;
+      border: 1px solid rgba(4, 118, 134, 1);
+    }
+    #div13{
+      height: 2.842170943040401e-14px;
+      width: 40px;
+      position: absolute;
+      left: 1090px;
+      top: 265px;
+      border-radius: 1px;
+      border: 1px solid rgba(226, 139, 8, 1);
+      
+    }
+    #div14{
+      height: 56.00000000000005px;
+      width: 0px;
+      position: absolute;
+      left: 1034px;
+      top: 322px;
+      border-radius: 1px;
+      border: 1px solid rgba(246, 83, 83, 1);
+    }
+    #div15{
+      height: 30px;
+      width: 0px;
+      position: absolute;
+      left: 1034px;
+      top: 415px;
+      border-radius: 1px;
+      border: 1px solid rgba(246, 83, 83, 1);
+
+    }
+    #div16{
+      height: 2.842170943040401e-14px;
+      width: 84px;
+      position: absolute;
+      left: 885px;top: 303px;
+      border-radius: 0px;
+      border: 1px solid rgba(4, 118, 134, 1);
+    }
+    #div17{
+      height: 20px;
+      width: 0px;
+      position: absolute;
+      left: 1218px;
+      top: 285px;
+      border-radius: 1px;
+      border: 1px solid rgba(226, 139, 8, 1);
+    }
+    #div18{
+      height: 2.842170943040401e-14px;
+      width: 80px;
+      position: absolute;
+      left: 1180px;
+      top: 307px;
+      border-radius: 1px;
+      border: 1px solid rgba(226, 139, 8, 1);
+    }
+    #div19{
+      height: 20px;
+      width: 0px;
+      position: absolute;
+      left: 1180px;
+      top: 308px;
+      border-radius: 1px;
+      border: 1px solid rgba(226, 139, 8, 1);
+    }
+    #div20{
+      height: 20px;
+      width: 0px;
+      position: absolute;
+      left: 1260px;
+      top: 308px;
+      border-radius: 1px;
+      border: 1px solid rgba(226, 139, 8, 1);
+    }
+    #div21{
+      height: 26px;
+width: 26px;
+position: absolute;
+left: 1083px;
+top: 134px;
+border-radius: 50%;
+background:  rgba(6, 103, 247, 1);
+color: white;
+text-align: center;
+      
+    }
+    #div22{
+      height: 26px;
+width: 26px;
+position: absolute;
+left: 790px;
+top: 290px;
+border-radius: 50%;
+background:  rgba(4, 118, 134, 1);
+color: white;
+text-align: center;
+    }
+    #div23{
+      height: 26px;
+width: 26px;
+position: absolute;
+left: 1130px;
+top: 366px;
+border-radius: 50%;
+background: rgba(246, 83, 83, 1);
+color: white;
+text-align: center;
+    }
+    
+
+
+    #div1:hover {
+      width: 200px;
+      height: 66px;
+    }
+    .MySpecialTag:before
+    {
+        content: "＃紙質設備";
+    }
+    .MySpecialTag:hover:before
+    {
+        content: "該綜述首先介紹了可用於紙質設備之檢測方法之原理";
+    }
+    
+
+    </style>
+    <div id="div1" class="MySpecialTag"></div>
+    <div id="div2">＃高度傳染性</div>
+    <div id="div3">＃高度傳染性</div>
+    <div id="div4"><br>COVID-19大流行造...</div>
+    <div id="div5">＃準確的現場診斷</div>
+    <div id="div6">＃優缺點</div>
+    <div id="div7">＃分析效能</div>
+    <div id="div8">＃基於 aper 的 POC 測試</div>
+    <div id="div9">涉及執行診斷</div>
+    <div id="div10"></div>
+    <div id="div11"></div>
+    <div id="div12"></div>
+    <div id="div13"></div>
+    <div id="div14"></div>
+    <div id="div15"></div>
+    <div id="div16"></div>
+    <div id="div17"></div>
+    <div id="div18"></div>
+    <div id="div19"></div>
+    <div id="div20"></div>
+    <div id="div21">1</div>
+    <div id="div22">1</div>
+    <div id="div23">2</div>
+</div>
+
+</body>
+</html>
+
+
+

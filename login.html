@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/show-password-toggle.css">
+  
+<!-- Bootstrap 5 IE11 Polyfills -->
+<script
+  nomodule>window.MSInputMethodContext && document.documentMode && document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-ie11@5/css/bootstrap-ie11.min.css"><script src="https://cdn.jsdelivr.net/combine/npm/ie11-custom-properties@4,npm/element-qsa-scope@1"><\/script><script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js"><\/script>');</script>
+
+</head>
+
+  
+
+  
+    <div class="row">
+        <div class="col"><img src="./plogin_assets-2/截圖 2022-11-01 下午11.02.28.png"
+          class="w-55 vh-100" style="object-fit: cover;background-color: #e3f2fd; "/>
+          </div>
+        <div class="col">
+  
+          <div class="text-end container mt-3">
+         
+          </div>
+
+<br><br>
+          <div class="row">
+            <div class="col-5"></div>
+            <div class="col"><img style="width:50px ;" src="./plogin_assets-2/Frame.png" alt=""></div>
+            <div class="col">   <div class="dropdown">
+              <button type="button" class="btn btn-outline-primary dropdown-toggle rounded-pill btn-sm" data-bs-toggle="dropdown">
+                繁體中文
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">繁體中文</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div></div>
+          </div>
+          
+          
+                        <br>
+                        
+        <div class="text-center mb-3 pb-1">
+                            <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                            <span class="h2 fw-light mb-0">登入</span><span class="h2 fw-normal mb-0 " style="color: #185CC3;"> PLOGIN</span>                    
+        </div>
+
+  
+        
+        <form>
+            <div class="row">
+              <div class="col-2">
+              </div>
+              <div class="col-sm-8 my-1">
+                <label class="text-center form-label" for="form2Example17">註冊信箱</label>
+          <input type="email" id="form2Example17" class="form-control form-control-lg" />
+          </form>
+          <br>
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example27" >密碼</label>
+            <div class="input-group mb-3">
+              <input type="password" id="password" name="current-password" autocomplete="current-password"
+          class="form-control rounded form-control-lg" spellcheck="false" autocorrect="off" autocapitalize="off" required>
+        <button id="toggle-password" type="button" class="d-none"
+          aria-label="Show password as plain text. Warning: this will display your password on the screen.">
+        </button>
+        <script src="./assets/js/show-password-toggle.js" async></script>
+              
+            </div>
+            <div class=" text-center">
+              <a  class=" small align-bottom" style="color:#185CC3 ;" data-bs-toggle="modal" data-bs-target="#forgotpassword">
+                忘記密碼
+             </a>
+            </div>
+        </div>
+
+    
+
+          
+           <!-- The Modal -->
+           <div class="modal fade" id="forgotpassword">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header ">
+                  <div class="container"></div>
+                  
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body ">
+                  <div class="text-center">
+                    <p class="modal-title text-center fw-bold ">忘記密碼</p><br>
+                    <img src="./plogin_assets/截圖 2022-10-11 下午1.50.05.png" alt="">
+                  </div>
+                  <div class="container"><p class="modal-title text-center fw-lighter ">請輸入您的註冊信箱，我們將會寄送密碼確認信到您的信箱</p></div>
+                  
+                  <br>
+
+                  <form action="/action_page.php" >
+                
+                    <div class=" col-sm-8 my-1">
+                      <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col"><label for="email" class="fw-light">註冊信箱</label>
+                          <input type="email" class="text-center form-control" id="email" placeholder="" name="email">
+                        </div>
+                      </div>
+                      </div>
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">確認</button>
+                  <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">取消</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-1 mb-4 d-grid">
+            <a href="./index.html" class="btn btn-primary btn-lg rounded-pill">登入 ></a>
+            <br>
+            <div class=" pt-1 mb-4 d-grid">
+                <button class="btn-lg btn btn-outline-primary rounded-pill" type="button"data-bs-toggle="modal" data-bs-target="#register">註冊會員</button>
+              </div>
+              <br>
+         <!-- The Modal -->
+         <div class="modal" id="register">
+         <div class="modal-dialog">
+         <div class="modal-content">
+         <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="container"><p class="modal-title text-center fw-bold ">註冊會員</p></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="text-center"><object data="./plogin_assets/ic_logout_pic.svg" type="image/svg+xml"></object></div>
+          
+          <form action="/action_page.php"  class="was-validated">
+            <div class=" col-sm-10 my-1">
+              <div class="row">
+                <div class="col-3"></div>
+                <div class="col"><label for="email" class="fw-light"><label class="text-danger">*</label>姓名</label>
+                  <input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+              </div>
+              </div></form>
+              <br>
+              <div class=" col-sm-10 my-1">
+                <div class="row">
+                  <div class="col-3"></div>
+                  <div class="col"><label for="email" class="fw-light"><label class="text-danger">*</label>年齡</label>
+                    <input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                </div>
+                </div></form>
+                <br>
+                <div class=" col-sm-10 my-1">
+                  <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col d-grid gap-2">
+                      <label for="email" class="fw-light"><label class="text-danger">*</label>職業</label>
+                      <div class="dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle px-12" data-bs-toggle="dropdown">
+                          請選擇職業別
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">學生</a></li>
+                          <li><a class="dropdown-item" href="#">教師</a></li>
+                          <li><a class="dropdown-item" href="#">自由業</a></li>
+                          <li><a class="dropdown-item" href="#">出版業</a></li>
+                          <li><a class="dropdown-item" href="#">文字工作者</a></li>
+                          <li><a class="dropdown-item" href="#">其他</a></li>
+                        </ul>
+                      </div>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  </div></form>
+                  <br>
+                  <div class=" col-sm-10 my-1">
+                    <div class="row">
+                      <div class="col-3"></div>
+                      <div class="col"><label for="email" class="fw-light">手機號碼</label>
+                        <input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                      </div>
+                    </div>
+                    </div></form>
+                    <br>    <div class=" col-sm-10 my-1">
+                      <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col"><label for="email" class="fw-light"><label class="text-danger">*</label>註冊信箱</label>
+                          <input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                      </div>
+                      </div></form>
+                      <br>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">確認</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">取消</button>
+          
+        </div></div></div></div>
+
+        <div> 
+          
+          <div class="row">
+            <div class="col-3"><hr></div>
+            <div class="col"><p class="mb-5 pb-lg-2"   class="text-primary">或以第三方帳戶登入</div>
+            <div class="col-3"><hr></div>
+          </div>
+       
+          </div>
+          
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+              <div class="col order-1">
+                <a class="btn " href="#" role="button"><img src="./plogin_assets-2/login_google.png" alt=""></a>
+              </div>
+
+            <div class="col order-2">
+            <a class="btn " href="#" role="button"><img src="./plogin_assets-2/login_facebook.svg" alt=""></a>
+           </div>
+
+            </button>
+            <div class="col order-3">
+                <a class="btn " href="#" role="button"><img src="./plogin_assets-2/login_apple.svg" alt=""></a>
+                
+            </div>
+           </div>
+
+    
+        
+</body>
+</html>
+

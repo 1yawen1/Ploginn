@@ -1,0 +1,48 @@
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style>.rating{
+        display : flex;
+      }
+      
+      .rating input{
+        position : absolute;
+        left     : -100vw;
+      }
+      
+      .rating label{
+        width      : 48px;
+        height     : 48px;
+        padding    : 48px 0 0;
+        overflow   : hidden;
+        background : url('stars.svg') no-repeat top left;
+      }
+      
+      .rating:not(:hover) input:indeterminate + label,
+      .rating:not(:hover) input:checked ~ input + label,
+      .rating input:hover ~ input + label{
+        background-position : -48px 0;
+      }
+      
+      .rating:not(:hover) input:focus-visible + label{
+        background-position : -96px 0;
+      }</style>
+</head>
+<body style="background-color:#FFFFFF;">
+    <div class="rating">
+        <input id="rating1" type="radio" name="rating" value="1">
+        <label for="rating1">1</label>
+        <input id="rating2" type="radio" name="rating" value="2">
+        <label for="rating2">2</label>
+        <input id="rating3" type="radio" name="rating" value="3">
+        <label for="rating3">3</label>
+        <input id="rating4" type="radio" name="rating" value="4">
+        <label for="rating4">4</label>
+        <input id="rating5" type="radio" name="rating" value="5">
+        <label for="rating5">5</label>
+        
+      </div>
+</body>
+</html>

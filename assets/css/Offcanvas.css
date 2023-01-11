@@ -1,0 +1,9 @@
+
+.offcanvas-parent {
+    position: relative;
+  }
+  
+  .offcanvas {
+    position: absolute;
+    top: 40px; left: 120px;
+  }

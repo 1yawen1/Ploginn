@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Star Rating Form Input</title>
+ 
+</head>
+<body>
+   <div>
+      <style>
+         .star {
+          visibility:hidden;
+          font-size:30px;
+          cursor:pointer;
+          color: #185CC3;
+      }
+      .star:before {
+         content: "\2605";
+         position: absolute;
+         visibility:visible;
+      }
+      .star:checked:before {
+         content: "\2606";
+         position: absolute;
+      }
+      </style> 
+      <input class="star" type="checkbox" title="bookmark page"><br /><br />
+      <input class="star" type="checkbox" title="bookmark page" checked><br /><br />
+      
+   </div>
+   
+
+</body>
+</html>
