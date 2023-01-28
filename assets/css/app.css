@@ -13,8 +13,9 @@
 	max-width:25rem;
 	position: absolute;
 	z-index:1500;
-	border-radius: 8px;
+	
 	display: inline-block;
+	border-radius: 8px;
 }
 
 .aptour-window header {

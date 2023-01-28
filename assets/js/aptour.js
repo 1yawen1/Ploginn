@@ -154,7 +154,7 @@ APTour.prototype.handleClicks = function(event) {
 			break;
 			
 			case 'close' : 
-			document.body.removeChild(this.overlay);
+				document.body.removeChild(this.overlay);
 				document.body.removeChild(this.tourWindow);
 				window.location.href = "http://127.0.0.1:5500/convert1.html";
 

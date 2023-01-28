@@ -54,11 +54,12 @@ APTour.prototype.initialize = function () {
 	
 	this.tourWindow = document.createElement('div');
 	this.tourWindow.className = 'aptour-window';
-	tourWindowContents += '<header>';
-	tourWindowContents += '</header>';
+	tourWindowContents += '<header></header>';
 	tourWindowContents += '<div class="aptour-window-desc"></div>';
 	tourWindowContents += '<footer>';
-	tourWindowContents += '<button class="button warning" data-aptour-nav="close">X</button>';
+	tourWindowContents += '<button class="button" data-aptour-nav="prev">上一步</button>';
+	tourWindowContents += '<button class="button" data-aptour-nav="next">了解</button>';
+	tourWindowContents += '<button class="button warning" data-aptour-nav="close">略過</button>';
 	tourWindowContents += '</footer>';
 	
 	this.tourWindow.innerHTML = tourWindowContents;
@@ -153,10 +154,8 @@ APTour.prototype.handleClicks = function(event) {
 			break;
 			
 			case 'close' : 
-			document.body.removeChild(this.overlay);
+				document.body.removeChild(this.overlay);
 				document.body.removeChild(this.tourWindow);
-				window.location.href = "http://127.0.0.1:5500/convert%20copy%203.html";
-
 			break;
 		}
 	}

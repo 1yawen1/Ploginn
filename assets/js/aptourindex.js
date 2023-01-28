@@ -56,7 +56,6 @@ APTour.prototype.initialize = function () {
 	this.tourWindow.className = 'aptour-window';
 	tourWindowContents += '<header>';
 	tourWindowContents += '</header>';
-	tourWindowContents += '<img src="./plogin_assets-2/Group 11623.svg"></img>';
 	tourWindowContents += '<div class="aptour-window-desc"></div>';
 	tourWindowContents += '<footer>';
 
