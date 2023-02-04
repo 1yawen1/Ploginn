@@ -56,9 +56,12 @@ APTour.prototype.initialize = function () {
 	this.tourWindow.className = 'aptour-window';
 	tourWindowContents += '<header>';
 	tourWindowContents += '</header>';
+
 	tourWindowContents += '<div class="aptour-window-desc"></div>';
 	tourWindowContents += '<footer>';
+
 	tourWindowContents += '<button class="button warning" data-aptour-nav="close">X</button>';
+	
 	tourWindowContents += '</footer>';
 	
 	this.tourWindow.innerHTML = tourWindowContents;

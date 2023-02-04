@@ -20,8 +20,8 @@
 }
 
 .aptour-window header {
-	background-color: #EAEAEA;
-	border: 1px solid #ccc;
+	background-color: #e2e2e2;
+	border: 1px solid rgb(216, 216, 216);
 	padding: 1rem;
 	border-radius: 8px 8px 0 0;
 	font-weight: bold;
@@ -31,10 +31,11 @@
 	border-top: 1px solid #ccc;
 	padding: 1rem;
 	overflow: hidden;
+	float:right;
 }
 
 .aptour-window footer {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid rgb(255, 253, 253);
 	padding: 1rem;
 	overflow: hidden;
 }
