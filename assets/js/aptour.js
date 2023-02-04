@@ -57,7 +57,6 @@ APTour.prototype.initialize = function () {
 	tourWindowContents += '<header></header>';
 	tourWindowContents += '<div class="aptour-window-desc"></div>';
 	tourWindowContents += '<footer>';
-	tourWindowContents += '<button class="button" data-aptour-nav="prev">上一步</button>';
 	tourWindowContents += '<button class="button" data-aptour-nav="next">了解</button>';
 	tourWindowContents += '<button class="button warning" data-aptour-nav="close">略過</button>';
 	tourWindowContents += '</footer>';
