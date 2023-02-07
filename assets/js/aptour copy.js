@@ -154,8 +154,9 @@ APTour.prototype.handleClicks = function(event) {
 			break;
 			
 			case 'close' : 
+			document.body.removeChild(this.overlay);
+			document.body.removeChild(this.tourWindow);
 			
-				window.location.href = "/convert1.html";
 			break;
 		}
 	}
