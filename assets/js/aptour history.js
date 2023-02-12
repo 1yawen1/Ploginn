@@ -158,7 +158,7 @@ APTour.prototype.handleClicks = function(event) {
 			case 'close' : 
 			document.body.removeChild(this.overlay);
 				document.body.removeChild(this.tourWindow);
-				window.location.href = "http://127.0.0.1:5500/convert%20copy%203.html";
+				window.location.href = "https://1yawen1.github.io/Ploginn/convert%20copy%203.html";
 
 			break;
 		}
