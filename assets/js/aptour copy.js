@@ -57,7 +57,7 @@ APTour.prototype.initialize = function () {
 	tourWindowContents += '<header></header>';
 	tourWindowContents += '<div class="aptour-window-desc"></div>';
 	tourWindowContents += '<footer>';
-	tourWindowContents += '<button class="button" data-aptour-nav="prev">上一步</button>';
+	
 	tourWindowContents += '<button class="button" data-aptour-nav="next">了解</button>';
 	tourWindowContents += '<button class="button warning" data-aptour-nav="close">略過</button>';
 	tourWindowContents += '</footer>';
@@ -119,7 +119,7 @@ APTour.prototype.moveTo = function (index) {
 		break;
 				
 	}
-	window.scrollTo(0, scrollPosition);
+	window.scrollTo(0, 0);
 	this.tourWindow.style.left = left + "px";
 	this.tourWindow.style.top = top + "px";
 	

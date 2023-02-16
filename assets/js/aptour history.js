@@ -121,7 +121,7 @@ APTour.prototype.moveTo = function (index) {
 		break;
 				
 	}
-	window.scrollTo(0, scrollPosition);
+	window.scrollTo(0, 0);
 	this.tourWindow.style.left = left + "px";
 	this.tourWindow.style.top = top + "px";
 	
