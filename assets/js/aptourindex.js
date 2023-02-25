@@ -158,8 +158,6 @@ APTour.prototype.handleClicks = function(event) {
 			case 'close' : 
 			document.body.removeChild(this.overlay);
 			document.body.removeChild(this.tourWindow);
-			window.location.assign('https://1yawen1.github.io/Ploginn/index.html');
-			
 
 			break;
 		}

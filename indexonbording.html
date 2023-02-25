@@ -7,168 +7,168 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/foundation.min.css">
-  <link rel="stylesheet" href="./assets/css/app.css">
+
+      <link rel="stylesheet" href="./assets/css/app.css">
+  
+ 
 </head>
 <body>
-
-   
-
-
+ 
+<!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a  href="index.html"><span><img src="./plogin_assets-2/截圖 2022-10-29 下午9.03.13.png" alt=""></span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+    <h1 class="logo"><a  href="index.html"><span><img src="./plogin_assets-2/截圖 2022-10-29 下午9.03.13.png" alt=""></span></a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="./index.html">首頁</a></li>
-          <li><a class="nav-link scrollto" href="./file.html">我的產出</a></li>
-          <li><a class="nav-link scrollto" href="./social.html">PLOGIN社群</a></li>
-          <li><a class="btn btn-primary  text-white" href="./convert1.html">開始轉換文字</a></li>
-       
-          <li><div class="dropdown ">
-            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><img src="./plogin_assets/Ellipse 18.png" alt="">
-            </button>
-            <ul class="dropdown ">
-              <li><img class="dropdown-item" src="./plogin_assets-2/ic_account_level_basic.svg" style="width: 40% ;" alt=""></li>
-              <li><a class="dropdown-item fw-bold" href="#">一般會員</a></li>
-              <li><a class="dropdown-item fw-lighter" style="color:#00000080 ;" href="#">peter1234568@gmail.com</a></li>
-              <li><a class="dropdown-item btn btn-sm btn-warning rounded-pill" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">升級 PLUS +</a></li>
-              <li class=""><a class="dropdown-item " href="#">登出</a></li>
-              <li><hr class="dropdown-item"></li>
-              <hr>
-              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">帳號設定</a></li>
-              <li class="dropdown dropend"><a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">語言設定</a>
-                <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
-                  <li><a class="dropdown-item" href="#">繁體中文（台灣） V</a></li>
-                  <li><a class="dropdown-item" href="#">Engilsh（US）</a></li>
-              </li>
-            </ul>
-          </div></li>
-        <script>
-          let dropdowns = document.querySelectorAll('.dropdown-toggle')
-dropdowns.forEach((dd)=>{
-    dd.addEventListener('click', function (e) {
-        var el = this.nextElementSibling
-        el.style.display = el.style.display==='block'?'none':'block'
-    })
-})
-        </script>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="./index.html">首頁</a></li>
+        <li><a class="nav-link scrollto " href="./file.html">我的產出</a></li>
+        <li><a class="nav-link scrollto" href="./social.html">PLOGIN社群</a></li>
+        <li><a class="btn btn-primary  text-white" href="./convert onboarding.html">開始轉換文字</a></li>
+     
+        <li><div class="dropdown ">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><img src="./plogin_assets/Ellipse 18.png" alt="">
+          </button>
+          <ul class="dropdown ">
+            <li><img class="dropdown-item" src="./plogin_assets-2/ic_account_level_basic.svg" style="width: 40% ;" alt=""></li>
+            <li><a class="dropdown-item fw-bold" href="#">一般會員</a></li>
+            <li><a class="dropdown-item fw-lighter" style="color:#00000080 ;" href="#">peter1234568@gmail.com</a></li>
+            <li><a class="dropdown-item btn btn-sm btn-warning rounded-pill" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">升級 PLUS +</a></li>
+            <li class=""><a class="dropdown-item " href="#">登出</a></li>
+            <li><hr class="dropdown-item"></li>
+            <hr>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >帳號設定</a></li>
+           <li>
+          
+            <li>
+              <div class="dropdown-item ">
+                 <form action="/action_page.php">
+                  <label for="sel1" class="form-label dropdown-item"></label>
+                  <select class="form-select" id="sel1" name="sellist1">
+                    <option>語言設定</option>
+                    <option>繁體中文（台灣）</option>
+                    <option>Engilsh（US）</option>
+                
+                  </select>  
+            </li>
+          </ul>
+        </div></li>
+      
 
-          <!-- 帳號設定 -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                  <div class="modal-header  ">
-                    <br>
-                   
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="text-center">
-                    <br>
-                    <h5 class="fw-bold">帳號設定</h5>
-                    <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
-                  
+        <!-- 帳號設定 -->
+          <div class="modal " id="exampleModal"   >
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header  ">
                   <br>
-                <p href="" class="text-center">變更照片</p>
+                 
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="mb-3">
-                        <p>名稱</p>
-                        <div class="row">
-                          <div class="col fw-light">Pin-Han Huang</div>
-                          <div class="col"></div>
-                          <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
-                        </div>
-                        <hr>
-                       
+                <div class="text-center">
+                  <br>
+                  <h5 class="fw-bold">帳號設定</h5>
+                  <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
+                
+                <br>
+              <p href="" class="text-center">變更照片</p>
+              </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <p>名稱</p>
+                      <div class="row">
+                        <div class="col fw-light">Pin-Han Huang</div>
+                        <div class="col"></div>
+                        <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
                       </div>
-                      <div class="mb-3">
-                        <p>電子郵件地址</p>
-                        <div class="row">
-                          <div class="col fw-light">p.hhuang0307@gmail.com</div>
-                          <div class="col"></div>
-                          <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
-                        </div>
-                        <hr>
-                      </div>
-                      <div class="mb-3">
-                        <p>手機號碼</p>
-                        <div class="row">
-                          <div class="col fw-light">092632265659</div>
-                          <div class="col"></div>
-                          <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
-                        </div>
-                        <hr>
-                      </div>
-                      <div class="mb-3">
-                        <p>你用於登入PLOGIN的服務</p>
-                      </div>
-                      <div class="d-grid gap-2">
-                      
-                      <button type="button" class="btn btn-light"><img class="text-start" src="./plogin_assets-2/Group 11620.png" alt=""></button> </div>
-
+                      <hr>
                      
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">確認</button>
-                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">取消</button>
+                    </div>
+                    <div class="mb-3">
+                      <p>電子郵件地址</p>
+                      <div class="row">
+                        <div class="col fw-light">p.hhuang0307@gmail.com</div>
+                        <div class="col"></div>
+                        <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
+                      </div>
+                      <hr>
+                    </div>
+                    <div class="mb-3">
+                      <p>手機號碼</p>
+                      <div class="row">
+                        <div class="col fw-light">092632265659</div>
+                        <div class="col"></div>
+                        <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
+                      </div>
+                      <hr>
+                    </div>
+                    <div class="mb-3">
+                      <p>你用於登入PLOGIN的服務</p>
+                    </div>
+                    <div class="d-grid gap-2">
                     
-                  </div>
+                    <button type="button" class="btn btn-light"><img class="text-start" src="./plogin_assets-2/Group 11620.png" alt=""></button> </div>
+
+                   
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">確認</button>
+                  <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">取消</button>
+                  
                 </div>
               </div>
             </div>
-          <div class="container mt-5">
-           
           </div>
+        <div class="container mt-5">
+         
+        </div>
 
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
-        <h5 class="text-center font-weight-bold">升級會員</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-sm">
-            <button type="button" class="btn btn-light"><img style="width:200px ;" src="./plogin_assets-2/截圖 2022-11-19 上午11.50.22.png" alt=""></button>
-          </div>
-          <div class="col-sm">
-            <button type="button" class="btn btn-light"><img style="width:200px ;"  src="./plogin_assets-2/截圖 2022-11-19 上午11.50.49.png" alt=""></button>
-          </div>
-          <div class="col-sm">
-            <button type="button" class="btn btn-light"><img style="width:200px ;"  src="./plogin_assets-2/截圖 2022-11-19 上午11.51.13.png" alt=""></button>
-          </div>
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+      <h5 class="text-center font-weight-bold">升級會員</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-light"><img style="width:200px ;" src="./plogin_assets-2/截圖 2022-11-19 上午11.50.22.png" alt=""></button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light"><img style="width:200px ;"  src="./plogin_assets-2/截圖 2022-11-19 上午11.50.49.png" alt=""></button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light"><img style="width:200px ;"  src="./plogin_assets-2/截圖 2022-11-19 上午11.51.13.png" alt=""></button>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">確認</button>
-        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">取消</button>
-        
-      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary">確認</button>
+      <button type="button" class="btn btn-outline-primary" data-dismiss="modal">取消</button>
+      
     </div>
   </div>
 </div>
+</div>
 
-         
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+       
+        
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
-    </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->
   <main id="back">
   <div class="container mt-3">
     
@@ -178,7 +178,6 @@ dropdowns.forEach((dd)=>{
           <img class="card-img-top" src="./plogin_assets/plogin-1-01.png" alt="Card image" style="width:130%">  
             </div>
       </div>
-   
       <div class="col">
         <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
           <div class="title-bar-title"></div>
@@ -188,7 +187,6 @@ dropdowns.forEach((dd)=>{
           <a class="btn btn-primary btn-lg" href="./convert1.html" role="button">開始轉換文字 <img src="./plogin_assets-2/Group 11573.png"></a>
           </div>
       </div>
-      
      
     </div>
     
@@ -236,15 +234,14 @@ dropdowns.forEach((dd)=>{
     <div class="row">
       <div class="col">
         <div class="row">
-          <div class="col-1">
-            
-          </div>
-          <div class="col">
+          
+          <div class="col-8">
             <p class="text-muted"><img src="./plogin_assets-2/ic_export.svg" alt=""> 已建立的圖面文件(4)</p>
            
           </div>
+        <div class="col"></div>
           <div class="col">
-            <a href="#demo1" class="btn btn-link" data-bs-toggle="collapse">查看更多</a>
+            <a href="./seemore.html" class="btn btn-link" >查看更多</a>
             
           </div>
           
@@ -252,14 +249,14 @@ dropdowns.forEach((dd)=>{
       </div>
       <div class="col">
         <div class="row">
-          <div class="col">
+          <div class="col-4">
             <p class="text-muted"><img src="./plogin_assets-2/ic_share.svg" alt=""> 已分享的圖面文件(5)</p>
           </div>
-          <div class="col">
+          <div class="col-2">
             
           </div>
           <div class="col">
-            <a href="#demo2" class="btn btn-link" data-bs-toggle="collapse">查看更多</a>
+            <a href="./seemoreshare.html" class="btn btn-link" >查看更多</a>
           </div>
         </div>
       </div>
@@ -303,7 +300,7 @@ dropdowns.forEach((dd)=>{
             </div>
             <br>
       
-              <div id="demo1" class="collapse  ">
+              <div id="demo1" class=" ">
                 <div class="d-grid">
                   <button type="button" class=" btn btn-light text-primary text-start fw-normal btn-lg">
                     <p>     </p>
@@ -320,26 +317,34 @@ dropdowns.forEach((dd)=>{
             <p>   </p>
             <div class="col-2">
               <img style="width:130%"src="./plogin_assets/螢幕快照 2022-09-02 下午10.03 11.png" alt="">
-            </div>
-            <div class="col-5">
-             <img src="./plogin_assets-2/截圖 2023-01-28 下午4.39.57.png" style="width:150px">
               
             </div>
-       
-<div class="col">
-  <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-    <div class="title-bar-title"></div>
-  </div>
-  <div  data-aptour='{ "desc": "💡您可以分享圖面文件給其他人，與團隊一起編輯。", "title": "2/2","position": "top"}'>
-    <div class="col text-end">
-
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-light"><img src="./plogin_assets-2/ic_share.svg">分享</button>
-        <button type="button" class="btn btn-light"><img src="./plogin_assets-2/ic_edit.svg">編輯</button>
-      </div>
-  </div>
-</div>
-          <br><br>
+            <div class="col">
+              <button type="button" class="btn btn-link">TEsTv20220809</button>
+              <p>2022-08-09</p>
+              
+              <p>擁有者: PeterHuang</p>
+              
+            </div>
+            <div class="col">
+              <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
+                <div class="title-bar-title"></div>
+              </div>
+              <div  data-aptour='{ "desc": "💡您可以分享圖面文件給其他人，與團隊一起編輯。", "title": "2/2","position": "top"}'>
+                <div class="col text-end">
+            
+                  <div class="">
+                    <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon_more.svg"></button>
+                  </div>
+              </div>
+            </div>
+            <div class="col text-end">
+              <div class="dropdown">
+             
+                <br><br><br>
+                <p class="text-end">成員:6</p>
+              </div>  
+            </div>
             <hr>
           </div>
         </div></li>
@@ -364,9 +369,10 @@ dropdowns.forEach((dd)=>{
                       <li><a class="dropdown-item" href="#" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModalll"><img src="./plogin_assets-2/ic_share.svg">分享</a></li>
                       <li><a class="dropdown-item" href="#"><img src="./plogin_assets-2/ic_edit.svg">編輯</a></li>
                     </ul>
+                    <br><br><br><p class="text-end">成員:6</p>
                   </div>  
                 
-                <br><br><br><br><p class="text-end">成員:6</p></div>
+               </div>
                 <hr>
               </div>
             </div>
@@ -391,9 +397,10 @@ dropdowns.forEach((dd)=>{
                     <li><a class="dropdown-item" href="#" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModalll"><img src="./plogin_assets-2/ic_share.svg">分享</a></li>
                     <li><a class="dropdown-item" href="#"><img src="./plogin_assets-2/ic_edit.svg">編輯</a></li>
                   </ul>
+                  <br><br><br><p class="text-end">成員:6</p>
                 </div>  
               
-              <br><br><br><br><p class="text-end">成員:6</p></div>
+             </div>
               <hr>
             </div>
           </div></li>
@@ -408,6 +415,9 @@ dropdowns.forEach((dd)=>{
                     <p>2022-08-09</p>
                     <p>擁有者: PeterHuang</p>
                   </div>
+                  
+
+                  
                   <div class="col text-end">
                     <div class="dropdown">
                       <button class="btn btn-default text-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -420,8 +430,9 @@ dropdowns.forEach((dd)=>{
                         </li>
                         <li><a class="dropdown-item" href="#"><img src="./plogin_assets-2/ic_edit.svg">編輯</a></li>
                       </ul>
+                      <br><br><br><p class="text-end">成員:6</p>
                     </div>
-                    <br><br><br><br><p class="text-end">成員:6</p></div>
+                    </div>
                     <hr>
                 </div>
               </div></li> 
@@ -471,38 +482,43 @@ dropdowns.forEach((dd)=>{
                               
                               <li><a class="dropdown-item" href="#"><img src="./plogin_assets-2/ic_edit.svg">編輯</a></li>
                             </ul>
+                            <br><br><br><p class="text-end">成員:6</p>
                           </div>
-                        <br><br><br><br><p class="text-end">成員:6</p></div>
+                          
+                        </li>
                         
-                      </div>
-                    </div></li>
       </div>
-      <div class="col-1"></div>
+      
     </div>
+    <div class="col-1"></div>
 </div>
+
 </div>
+
+
  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
 
 
     <div class="row">
       <div class="col">
         <div class="row">
-          <div class="col-2">
-          </div>
-          <div class="col">
+      
+        
+          <div class="col-10">
             <p class="text-muted"><img src="./plogin_assets-2/ic_export.svg" alt=""> 已建立的圖面文件(4)</p>
           </div>
-          <div class="col">
+          <div class="col-2">
             <a href="#demo1" class="btn btn-link" data-bs-toggle="collapse">查看更多</a>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-1">
+          <div class="col-3">
           </div>
           <div class="col">
+  
             <div class="col"><div class="card">
-              <div class="text-center"><img style="width: 250px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.00.png" alt=""></div>
+              <div class="text-center"><img style="width: 200px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.00.png" alt=""></div>
               <hr>
               <div class="card-body text-primary fw-bold">File_society_2022
                 <p class="text-muted fw-normal">2022-08-09</p>
@@ -510,7 +526,7 @@ dropdowns.forEach((dd)=>{
             </div></div>
             <br>
             <div class="col"><div class="card">
-              <div class="text-center"><img style="width: 250px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.59.png" alt=""></div>
+              <div class="text-center"><img style="width: 200px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.59.png" alt=""></div>
               <hr>
               <div class="card-body text-primary fw-bold">TEsTv20220809
                 <p class="text-muted fw-normal">2022-08-09</p>
@@ -519,7 +535,7 @@ dropdowns.forEach((dd)=>{
           </div>
           <div class="col">
             <div class="col"><div class="card">
-              <div class="text-center"><img style="width: 250px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.22.png" alt=""></div>
+              <div class="text-center"><img style="width: 200px; ;" src="./plogin_assets-2/截圖 2022-11-04 下午10.57.22.png" alt=""></div>
               <hr>
               <div class="card-body text-primary fw-bold">TEsTv20220809
                 <p class="text-muted fw-normal">2022-08-09</p>
@@ -531,15 +547,15 @@ dropdowns.forEach((dd)=>{
       </div>
       <div class="col">
         <div class="row">
-          <div class="col">
+          <div class="col-6">
             <p class="text-muted"><img src="./plogin_assets-2/ic_share.svg" alt=""> 已分享的圖面文件(3)</p>
           </div>
-          <div class="col">
-          </div>
-          <div class="col">
+        
+          <div class="col-5">
             <a href="#demo2" class="btn btn-link" data-bs-toggle="collapse">查看更多</a>
           </div>
           <div class="row">
+          <div class="col-1"></div>
             <div class="col">
               <div class="alert " role="alert" style="background-color:#185CC30F ;">
                 <div class="row">
@@ -676,7 +692,7 @@ dropdowns.forEach((dd)=>{
               <img src="./plogin_assets-2/ic_helper.svg " alt="">
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item text-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" href="#"><img src="./plogin_assets-2/ic_walkthrough.svg " alt="">導覽頁面</a></li>
+              <li><a class="dropdown-item text-primary"  href="./indexonbording.html"><img src="./plogin_assets-2/ic_walkthrough.svg " alt="">導覽頁面</a></li>
               <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModall" href="#"><img src="./plogin_assets-2/ic_feedback.svg" alt="">回饋</a></li>
             </ul>
           </div>
@@ -712,47 +728,6 @@ dropdowns.forEach((dd)=>{
 </div>
 
 
-<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./plogin_assets-2/ic_walkthrough_light.svg" alt=""> 您可以點擊轉換按鈕開始轉換。
-        <br>
-        <br>
-        <p >1/2</p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-outline-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">了解</button>
-        <button class="btn btn-link" data-bs-dismiss="modal" aria-label="Close">略過</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./plogin_assets-2/ic_walkthrough_light.svg" alt="">  您可以分享圖面文件給其他人，與團隊一起編輯。
-        <br>
-        <br>
-        <p>2/2</p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">了解</button>
-        <button class="btn btn-link" data-bs-dismiss="modal" aria-label="Close">略過</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
 
@@ -769,15 +744,14 @@ dropdowns.forEach((dd)=>{
   </div>
   <!-- Grid container -->
   </div>
-  
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      <script src="./assets/js/vendor/foundation.min.js"></script>
-       <script src="./assets/js/app.js"></script>
-      <script src="./assets/js/aptourindex.js"></script>
-      <script>
-         $(document).foundation();
-      </script>
-      <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+  <script src="./assets/js/vendor/foundation.min.js"></script>
+   <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/aptourindex.js"></script>
+  <script>
+     $(document).foundation();
+  </script>
+ <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
    
 </body>
 </html>
