@@ -2,8 +2,8 @@
 .scalable {
   background-color: rgb(255, 255, 255);
   position: relative;
-  min-width: 50px;
-  max-width: 1050px;
+  min-width: 600px;
+  max-width: 650px;
 }
 .main {
   background-color: white;
