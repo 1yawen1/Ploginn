@@ -1,18 +1,41 @@
+*, *::before, *::after {
+ box-sizing: border-box;
+}
+  
+ body {
+  margin: 0;
+}
 
-.scalable {
-  background-color: rgb(255, 255, 255);
+.wrapper {
+  height: 80vh;
+  width: 1200px;
+  background: #ffffff;
+  border: 6px solid #ffffff;
+  display: flex;
+}
+
+.pane {
+  padding: 1em;
+  color: #000000;
+  min-width: 200px;
+}
+
+.left {
+  
+}
+
+.right {
   position: relative;
-  min-width: 50px;
-  max-width: 1050px;
 }
-.main {
-  background-color: white;
-  flex: 1;
-}
-.content {
-  padding: 20px;
-}
-.scalable .separator {
+
+.gutter {
+  width: 10px;
+  height: 100%;
+  background: #666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: col-resize;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,13 +43,11 @@
   top: 0;
   right: 0;
   width: 14px;
-  height: 630px;
+  height: 650px;
   background-color: white;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .35);
   cursor: col-resize;
-  
 }
-
 .scalable .separator i {
   display: inline-block;
   height: 30px;
@@ -35,7 +56,6 @@
   margin: 0 1px;
   
 }
-
 .scalable .content {
   padding-right: 0px;
 }
