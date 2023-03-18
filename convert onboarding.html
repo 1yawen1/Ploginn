@@ -16,9 +16,8 @@
   
    <link rel="stylesheet" href="./assets/css/foundation.min.css">
    <link rel="stylesheet" href="./assets/css/app.css">
-   <link rel="stylesheet" href="./assets/css/scalable sidebar.css">
   
- 
+   <link rel="stylesheet" href="./assets/css/resizestyle.css">
 </head>
 
 <body>
@@ -53,50 +52,7 @@
                 <li><a class="dropdown-item" href="#">語言設定</a></li>
               </ul>
             </div></li>
-            <!-- 帳號設定 -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog ">
-                  <div class="modal-content">
-                    <div class="modal-header  ">
-                      <br>
-                      <h5 class="modal-title " id="exampleModalLabel">帳號設定</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="text-center">
-                      <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
-                    
-                    <br>
-                  <p href="" class="text-center">變更照片</p>
-                  </div>
-                    <div class="modal-body">
-                      <form>
-                        <div class="mb-3">
-                          <label for="recipient-name" class="col-form-label">名稱</label>
-                          <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                          <label for="recipient-name" class="col-form-label">電子郵件地址</label>
-                          <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                          <label for="recipient-name" class="col-form-label">手機號碼</label>
-                          <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                          <p>你用於登入PLOGIN的服務</p>
-                        </div>
-                        <div class="d-grid gap-2">
-                        
-                          <button type="button" class="btn btn-light"><img src="./plogin_assets-2/ic_google.svg" alt=""> Google</button> </div>
-  
-                       
-                      </form>
-                    </div>
-          </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+            
   </header><!-- End Header -->
 
   
@@ -135,105 +91,40 @@
             
             <div class="row gx-0 ">
               <div class="col">
-                <div class="card">
-                  <div class="card">
-                    <div class="scalable">
-                    <div class="content">
-                      
-                    </div>
-                    <div class="separator">
-                      <i></i><i></i>
-                    </div>
-                  </div>
-                  <div class="main">
-                  </div>
-                  <!-- partial -->
-                    <script  src="./assets/js/scalable sidebar.js"></script>
-                  <div class="card-body">
-                    
-                    <div class="row">
-                      <div class="col">
-                        <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-                          <div class="title-bar-title"></div>
-                        </div>
-                        <div class="top-bar" id="realEstateMenu" data-aptour='{"title": "1/5", "desc": "💡你可以從這裡匯入不同格式的文字檔", "position": "bottom"}'>
-                          <div class="">
-                           
-                              <div class="col">
-                                
-                                <label for="floatingSelectGrid"> <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">
-                                  匯入文字
-                                </button>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">word</a></li>
-                                  <li><a class="dropdown-item" href="#">pdf</a></li>
-                                </ul></label>
-                              </div>
-                             </ul>
-                          </div>
-                        
-                        </div>
 
+                <div class="wrapper">
+                  <div class="pane left">
+                     <!-- This is the left pane.-->
+                    <div class="top-bar" id="realEstateMenu"   data-aptour='{"title": "1/5", "desc": "💡你可以從這裡匯入不同格式的文字檔", "position": "bottom"}'>
+                      <div class="col">
+                        <label for="floatingSelectGrid"> <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">
+                          匯入文字
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">word</a></li>
+                          <li><a class="dropdown-item" href="#">pdf</a></li>
+                        </ul></label>
                       </div>
-                      <div class="col-6"></div>
-                      <div class="col"></div>
-                      <div class="col">
-                        
-                        <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-                          <div class="title-bar-title"></div>
-                        </div>
-                        <div class="top-bar" id="realEstateMenu" data-aptour='{"title": "2/5", "desc": "💡檢視你的歷史轉換紀錄", "position": "right"}'>
-                          <button><img src="./plogin_assets-2/ic_history.svg">
-                          </button>
-                        </div> </div>
-                    </div>
-                    <br>
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1"></label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="你可以在此輸入文字或點選上方按鈕匯入文字檔案" rows="3"></textarea>
-                     
                     
-                    <label class="text-muted">
-                  </div>
-                </div>
-                <br>
-           
                   
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <div class="text-end"><a class="btn btn-outline-light text-end" href="#" role="button"><img src="./plogin_assets-2/ic_sorting.svg"></a>
-                        </div>
-                          <br>
-                          <div class="text-center"> <img class="text-center" style="width:200px ;" src="./plogin_assets-2/img/img_empty_font.svg" alt=""></div>
-                          <p class="text-center">目前沒有轉換結果喔，快到上方區塊輸入文字吧！</p>
-                          <div id="resizable" class="text-end"> </div>
-                          <br>
-                          <br>
-                          <br>
-                       
-                        </div>
-                       
-                      </div>
-                    </div>
                   </div>
-                  
+                
+                  <div class="top-bar" id="realEstateMenu"  data-aptour='{"title": "2/5", "desc": "💡檢視你的歷史轉換紀錄", "position": "right"}'>
+                    <button><img src="./plogin_assets-2/ic_history.svg">
+                    </button>
+                  </div> 
+                  <label for="exampleFormControlTextarea1"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="你可以在此輸入文字或點選上方按鈕匯入文字檔案" rows="3"></textarea>
+                 
+                  <div class="text-end"><a class="btn btn-outline-light text-end" href="#" role="button"><img src="./plogin_assets-2/ic_sorting.svg"></a>
+                  </div>
+                  <div class="text-center"> <img class="text-center" style="width:200px ;" src="./plogin_assets-2/img/img_empty_font.svg" alt=""></div>
+                  <p class="text-center">目前沒有轉換結果喔，快到上方區塊輸入文字吧！</p>
+                 
                 </div>
-
-
                 
-               
-                
-              </div>
-              <div class="col">
-                <div class="card ">
-                  <div class="card-body ">
-                    
-
-                   
-                    <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-                      <div class="title-bar-title"></div>
-                    </div>
+                  <div class="pane right">
+                    <!-- This is the right pane.-->
                     <div  data-aptour='{"title": "3/5", "desc": "💡你可以利用編輯工具來新增註解、文字區塊或匯入圖檔。", "position": "bottom"}'>
                       <div class="text-end"><div class="btn-group-vertical">
                         <button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_addtype.svg" alt=""></button>
@@ -243,52 +134,34 @@
                         <button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_fullpage.svg" alt=""></button>
                       </div></div>
                     </div>
-                        <div class="text-center overflow-auto p-4  " style="max-width: 1000px; max-height: 200px;">
-                          <img style="width:350px ;" src="./plogin_assets-2/img/img_empty_chart.svg" alt="">
-                        </div>
-                        
-                        <p class="text-center">目前沒有轉換結果喔，快到左邊區塊輸入文字吧！</p>
-                        <div></div>
-                        
-                        <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-                          <div class="title-bar-title"></div>
-                        </div>
-                        <div  data-aptour='{"title": "4/5", "desc": "💡你可以利用編輯工具來新增註解、文字區塊或匯入圖檔。", "position": "left"}'>
-                          
-                        <button type="button" class=" btn btn-light">
-                          <input type="range" class="form-range" id="customRange1">
-                          <label for="customRange1" class="form-label">
-                            <div class="row">
-                              <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
-                              <div class="col-2"></div>
-                              <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
-                            </div>
-                          </label>
-                        </button>  
-                        </div>
-
-
-                        <div class="" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-                          <div class="title-bar-title"></div>
-                        </div>
-                        <div  data-aptour='{"title": "5/5", "desc": "💡你可以利用編輯工具來新增註解、文字區塊或匯入圖檔。", "position": "left"}'>
-                          <div class="text-end"><button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
-                            <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
-                            <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>   
-                          </div>
-                        </div>
-                          
-                      </label>
-                      
-                     
-                      
+                    <div class="text-center overflow-auto p-4  " style="max-width: 1000px; max-height: 200px;">
+                      <img style="width:350px ;" src="./plogin_assets-2/img/img_empty_chart.svg" alt="">
                     </div>
-
+                    
+                    <p class="text-center">目前沒有轉換結果喔，快到左邊區塊輸入文字吧！</p>
+                    <div  data-aptour='{"title": "4/5", "desc": "💡利用滑桿來調整圖表的樹狀複雜程度", "position": "left"}'>
+                          
+                      <button type="button" class=" btn btn-light">
+                        <input type="range" class="form-range" id="customRange1">
+                        <label for="customRange1" class="form-label">
+                          <div class="row">
+                            <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
+                            <div class="col-2"></div>
+                            <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
+                          </div>
+                        </label>
+                      </button>  
+                      </div>
+                      <div  data-aptour='{"title": "5/5", "desc": "💡縮放畫面來檢視你的圖表，並且隨時下載到本地端。", "position": "left"}'>
+                        <div class="text-end"><button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
+                          <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
+                          <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>   
+                        </div>
+                      </div>
+                    <div class="gutter"></div>
                   </div>
                 </div>
-    
-              </div>
-            </div>
+
             
 
 
@@ -343,6 +216,52 @@
          $(document).foundation();
       </script>
       <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+      <script  src="./assets/js/resizescript.js"></script>
+
+      <!-- 帳號設定 -->
+      <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header  ">
+              <br>
+              <h5 class="modal-title " id="exampleModalLabel">帳號設定</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="text-center">
+              <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
+            
+            <br>
+          <p href="" class="text-center">變更照片</p>
+          </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">名稱</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">電子郵件地址</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">手機號碼</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <p>你用於登入PLOGIN的服務</p>
+                </div>
+                <div class="d-grid gap-2">
+                
+                  <button type="button" class="btn btn-light"><img src="./plogin_assets-2/ic_google.svg" alt=""> Google</button> </div>
+
+               
+              </form>
+            </div>
+  </ul>
+<i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+
+</div>
 </body>
 
 </html>
