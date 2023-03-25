@@ -9,6 +9,7 @@ JXG.Options.axis.withLabel = true
 JXG.Options.elements.strokeColor = '#F65353CC' // 設定線的顏色為黑色
 
 
+
 const board = JXG.JSXGraph.initBoard('box', {
   boundingbox: [-10, 10, 10, -10],
   axis: false,
@@ -59,6 +60,7 @@ const board = JXG.JSXGraph.initBoard('box', {
   
   
   
+  
   // 三角形的三頂點和三邊
   const pointA = board.create('point', [-7,4],{ color: '#420BE0' })
   const pointB = board.create('point', [-2.8, 8.3],{color:'#047686'}  )
@@ -87,7 +89,7 @@ const board = JXG.JSXGraph.initBoard('box', {
 
   const butt = board.create('text', [-10, 4, "＃高度傳染性"]);
   const butt1 = board.create('text', [-4, 9, "＃高度傳染性"]);
-  const butt2 = board.create('text', [-8, 1, "＃紙質設備"]);
+  
   const butt3 = board.create('text', [-4, 0, "＃基於 aper 的 POC 測試"]);
   const butt4 = board.create('text', [-4, -1.3, "＃涉及執行診斷"]);
   const butt5 = board.create('text', [0, 5, "＃準確的現場診斷"]);
@@ -96,6 +98,27 @@ const board = JXG.JSXGraph.initBoard('box', {
   const butt8 = board.create('text', [-5.3, 4.5, "COVID-19大流行"],{color:'white',fontSize: 1.8, fontUnit: 'vmin'});
   
 
+// A toggle button
+const butt10 = board.create('button', [-10,1, '＃紙質設備', function() 
+{
+  var txt;
+  butt10.value = !butt10.value;
+  if (butt10.value) {
+  	txt = '該綜述首先介紹了可用於紙質設備之檢測方法之原理';
+  } else {
+  	txt = '＃紙質設備';
+  }
+	butt10.rendNodeButton.innerHTML = txt;
+}]);
+
+// Set initial value for the button
+if (!JXG.exists(butt10.value)) {
+	butt10.value = false;
+}
+
+var p = board.create('text', [-11, 0, "SARS-CoV-2的紙質POC設備"], {
+	visible: () => butt10.value
+});
 
   
   
