@@ -317,7 +317,8 @@ top: -720px;
 
   .square {
 
-    padding: 50px 380px 100px;
+    padding: 50px 380px ;
+
     background-color: #fff;
     background-size: 16px 16px;
     background-position: 0 0, 0px 0px;
@@ -326,7 +327,7 @@ top: -720px;
     linear-gradient(90deg, rgba(220, 220, 220, 0.5) 1px, transparent 0),
     linear-gradient(rgba(220, 220, 220, 0.5) 1px, transparent 0),
     linear-gradient(90deg, rgba(220, 220, 220, 0.5) 1px, transparent 0);
-
+   
 }
 
 

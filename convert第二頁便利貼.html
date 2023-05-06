@@ -39,8 +39,8 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <style>
-  #resizable { width: 150px; height: 150px; padding: 0.5em; }
-  #resizable h3 { text-align: center; margin: 0; }
+  #resizable { width: 600px; height: 150px; }
+  #resizable h3 { text-align: start; margin: 0; }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -177,11 +177,11 @@
                 </div>
                 
       
-<h1 class="mb-3 h2"></h1>
+
 <div class="row">
-<div class="col"></div>
-<div class="col-9">
-<div class="text-center overflow-auto p-1" style="max-width:620px; max-height: 300px;">
+
+<div class="col-10">
+  <div class="text-center overflow-auto p-1" style="max-width:1220px; max-height: 400px;">
 
   <div class="square">
     <div class="rectangle42" id="rectangle42">＃高度傳染性</div>
@@ -235,21 +235,29 @@
   
   
 
+<div class="row">
+  <div class="col-8">
+    <button type="button" class=" btn btn-light">
+      <input type="range" class="form-range text-start" id="customRange1">
+      <label for="customRange1" class="form-label">
+        <div class="row">
+          <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
+          <div class="col-2"></div>
+          <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
+        </div>
+      </label>
+    </button>  
+  </div>
+  <div class="col">
+    <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
+    <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
+    <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>
+  </div>
+</div>
 
 
-  <button type="button" class=" btn btn-light">
-    <input type="range" class="form-range text-start" id="customRange1">
-    <label for="customRange1" class="form-label">
-      <div class="row">
-        <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
-        <div class="col-2"></div>
-        <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
-      </div>
-    </label>
-  </button>  
- <div class="text-end"><button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
-  <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
-  <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>
+  
+ <div class="text-end">
  
 </div>
 

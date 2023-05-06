@@ -17,12 +17,9 @@
 .pane {
   padding: 1em;
   color: #000000;
-  min-width: 200px;
+  min-width: 10px;
 }
 
-.left {
-  
-}
 
 .right {
   position: relative;
@@ -35,18 +32,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  cursor: col-resize;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 0;
-  right: 0;
+
+  
   width: 14px;
   height: 570px;
   background-color: white;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .35);
-  cursor: col-resize;
+
 }
 .scalable .separator i {
   display: inline-block;
@@ -57,17 +52,12 @@
   
 }
 .scalable .content {
-  padding-right: 0px;
+  padding-right: 100px;
 }
 
 .scalable .content img {
-  display: block;
-  max-width: 100%;
-  margin: auto;
-  
-}
 
-body {
-  -webkit-user-select: none;
-  user-select: none;
+  max-width: 1000px;
+
+  
 }
