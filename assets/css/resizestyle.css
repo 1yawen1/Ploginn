@@ -4,13 +4,15 @@
   
  body {
   margin: 0;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .wrapper {
   height: 80vh;
   width: 1200px;
   background: #ffffff;
-  border: 6px solid #ffffff;
+  border: 5px solid #ffffff;
   display: flex;
 }
 
@@ -22,6 +24,7 @@
 
 
 .right {
+  background: #ffffff;
   position: relative;
 }
 
@@ -31,12 +34,11 @@
   background: #666;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
+  cursor: col-resize;
   width: 14px;
   height: 570px;
   background-color: white;
@@ -52,12 +54,14 @@
   
 }
 .scalable .content {
-  padding-right: 100px;
+  padding-right: 0px;
+
 }
 
 .scalable .content img {
-
-  max-width: 1000px;
+display: block;
+  max-width: 100%;
+  margin: auto;
 
   
 }
