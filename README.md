@@ -51,3 +51,10 @@
 - `assets/css/`: CSS 相關檔案。
 - `assets/js/`: JavaScript 相關檔案。
 - `plogin_assets-2/`: 圖片或icon。
+
+## 說明
+
+相關js,css可在<header>或<footer>查看。
+![image](picture or gif url)
+
+專案中重要的文件和資料夾結構。
