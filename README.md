@@ -54,7 +54,6 @@
 
 ## 說明
 
-相關js,css可在<header>或<footer>查看。
-![image](picture or gif url)
-
-專案中重要的文件和資料夾結構。
+相關js,css可在’header‘或’footer‘查看。
+![image](https://github.com/1yawen1/Ploginn/blob/main/截圖%202023-05-19%20下午2.22.54.png)
+![image](https://github.com/1yawen1/Ploginn/blob/main/截圖%202023-05-19%20下午2.22.09.png)
