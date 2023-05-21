@@ -6,57 +6,92 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Plogin Template - Index</title>
+  <meta content="" name="description">
 
-
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#resizable" ).resizable();
+  } );
+  </script>
 
-  
-   <link rel="stylesheet" href="./assets/css/foundation.min.css">
-   <link rel="stylesheet" href="./assets/css/app.css">
-  
-   <link rel="stylesheet" href="./assets/css/resizestyle copy.css">
+<link href="./assets/css/try.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://jsxgraph.org/distrib/jsxgraphcore.js"></script>
+<link rel="stylesheet" type="text/css" href="https://jsxgraph.org/distrib/jsxgraph.css" />
+<link rel="stylesheet" href="./assets/css/0403.css">
+<link rel="stylesheet" href="./assets/css/foundation.min.css">
+<link rel="stylesheet" href="./assets/css/app.css">
+<link rel="stylesheet" href="./assets/css/resizestyle copy.css">
+
 </head>
 
 <body>
   <main id="back">
 
-  
+    
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
+    <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html"><span><img src="./plogin_assets-2/截圖 2022-10-29 下午9.03.13.png" alt=""></span></a></h1>
+  
+      <h1 class="logo"><a  href="index.html"><span><img src="./plogin_assets-2/截圖 2022-10-29 下午9.03.13.png" alt=""></span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
-
+  
       <nav id="navbar" class="navbar">
         <ul>
-            <li><a class="nav-link scrollto " href="./index.html">首頁</a></li>
-            <li><a class="nav-link scrollto" href="./file.html">我的產出</a></li>
-            <li><a class="nav-link scrollto" href="./social.html">PLOGIN社群</a></li>
-            <li><a class="btn btn-primary btn-lg text-white" href="./convert.html">開始轉換文字</a></li>
-            <li><div class="dropdown">
-              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><img src="./plogin_assets/Ellipse 18.png" alt="">
-              </button>
-              <ul class="dropdown">
-                <li><img class="dropdown-item" src="./plogin_assets-2/ic_account_level_basic.svg" style="width: 40% ;" alt=""></li>
-                <li><a class="dropdown-item fw-bold" href="#">一般會員</a></li>
-                <li><a class="dropdown-item fw-lighter" href="#">peter1234568@gmail.com</a></li>
-                <li><a class="dropdown-item btn btn-sm btn-warning" href="#" role="button">升級 PLUS +</a></li>
-                <li><a class="dropdown-item" href="#">登出</a></li>
-                <li><hr class="dropdown-item"></li>
-                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">帳號設定</a></li>
-                <li><a class="dropdown-item" href="#">語言設定</a></li>
-              </ul>
-            </div></li>
+          <li><a class="nav-link scrollto " href="./index.html">首頁</a></li>
+          <li><a class="nav-link scrollto " href="./file.html">我的產出</a></li>
+          <li><a class="nav-link scrollto" href="./social.html">PLOGIN社群</a></li>
+          <li><a class="btn btn-primary  text-white" href="./convert onboarding.html">開始轉換文字</a></li>
+       
+          <li><div class="dropdown ">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><img src="./plogin_assets/Ellipse 18.png" alt="">
+            </button>
+            <ul class="dropdown ">
+              <li><img class="dropdown-item" src="./plogin_assets-2/ic_account_level_basic.svg" style="width: 40% ;" alt=""></li>
+              <li><a class="dropdown-item fw-bold" href="#">一般會員</a></li>
+              <li><a class="dropdown-item fw-lighter" style="color:#00000080 ;" href="#">peter1234568@gmail.com</a></li>
+              <li><a class="dropdown-item btn btn-sm btn-warning rounded-pill" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">升級 PLUS +</a></li>
+              <li class=""><a class="dropdown-item " href="#">登出</a></li>
+              <li><hr class="dropdown-item"></li>
+              <hr>
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >帳號設定</a></li>
+             <li>
             
-  </header><!-- End Header -->
+              <li>
+                <div class="dropdown-item ">
+                   <form action="/action_page.php">
+                    <label for="sel1" class="form-label dropdown-item"></label>
+                    <select class="form-select" id="sel1" name="sellist1">
+                      <option>語言設定</option>
+                      <option>繁體中文（台灣）</option>
+                      <option>Engilsh（US）</option>
+                  
+                    </select>  
+              </li>
+            </ul>
+          </div></li>
+        
+  
+          
+  
+         
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+  
+    </div>
+  </header><!-- End Header --><!-- End Header -->
 
   
-  <main id="main">
+    <main id="main">
 
 
    
@@ -66,8 +101,8 @@
       <div class="container" data-aos="fade-up">
        
 
-<div class="row g-1">
-<div class="col ">
+        <div class="row g-1  ">
+<div class="col">
   
   <div class="container gx-0 ">
     <img src="./plogin_assets-2/Group 11626.png" style="width: 97px;">
@@ -75,124 +110,161 @@
     <div class="vr"></div>
     <br>
     <img src="./plogin_assets-2/Group 11627.png" style="width: 97px;">
-    
   </div>
 </div>
 
+          <div class="col-11 gx-3">
+            <div class="wrapper">
+              <div class="pane left" style="width: 500px;" >
+                
+     
+                  <button data-aptour='{"title": "1/5", "desc": "💡你可以從這裡匯入不同格式的文字檔", "position": "bottom"}' class="btn btn-outline-primary callout" >
+                  匯入文字
+                </button>
 
 
-
-
-
-
-
-<div class="col-11 gx-3">
-  <div class="wrapper">
-
-                  <div class="pane left" style="width: 700px;">
-                     <!-- This is the left pane.-->
-                     <!-- 第一個彈跳視窗-->
-
-                    <div data-aptour='{"title": "1/5", "desc": "💡你可以從這裡匯入不同格式的文字檔", "position": "bottom"}'>
-                      <div class="col ">
-                        <label for="floatingSelectGrid callout secondary"> <button type="button" class="btn btn-outline-primary dropdown-toggle callout" >
-                          匯入文字
-                        </button>
-                      </div>
-                    
-                  
-                  </div>
-                     <!-- 第二個彈跳視窗-->
-                  <div   data-aptour='{"title": "2/5", "desc": "💡檢視你的歷史轉換紀錄", "position": "bottom"}'>
-                    <button class="callout" ><img src="./plogin_assets-2/ic_history.svg">
-                    </button>
-                  </div> 
-                  <label for="exampleFormControlTextarea1"></label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="你可以在此輸入文字或點選上方按鈕匯入文字檔案" rows="3"></textarea>
-                 
-                  <div class="text-end"><a class="btn btn-outline-light text-end" href="#" role="button"><img src="./plogin_assets-2/ic_sorting.svg"></a>
-                  </div>
-                  <div class="text-center"> <img class="text-center" style="width:200px ;" src="./plogin_assets-2/img/img_empty_font.svg" alt=""></div>
+                <a data-aptour='{"title": "2/5", "desc": "💡檢視你的歷史轉換紀錄", "position": "right"}' class=" callout btn btn-outline-light text-end" href="./轉換convert.html" role="button"><img src="./plogin_assets-2/ic_history.svg"></a>
+                <br><br>
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="你可以在此輸入文字或點選上方按鈕匯入文字檔案" rows="3"></textarea>
+               
+             <hr>
+             <label class="form-check-label" style="width: 400px;">
+              <input class="form-check-input" type="checkbox" name="remember">翻譯原文
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember">條列式排列
+                
+              </label>
+              <a class="btn btn-outline-light text-end" href="#" role="button"><img src="./plogin_assets-2/ic_sorting.svg"></a>
+              <div class="text-center"> <img class="text-center" style="width:300px ;" src="./plogin_assets-2/img/img_empty_font.svg" alt=""></div>
                   <p class="text-center">目前沒有轉換結果喔，快到上方區塊輸入文字吧！</p>
                  
+            </div>
+              <div class="pane right">
+                <!-- Jumbotron -->
+                <div class="row ">
+                  <div class="col"></div>
+                  <div class="col"></div>
+                  <div class="col"><input type="text" class="form-control" placeholder="未命名的圖面文件"></div>
+                
                 </div>
                 
-                  <div class="pane right">
-                    <!-- This is the right pane.-->
-                    <!-- 第三個彈跳視窗-->
-                    <div  data-aptour='{"title": "3/5", "desc": "💡你可以利用編輯工具來新增註解、文字區塊或匯入圖檔。", "position": "bottom"}'>
-                      <div class="text-end" ><div class="btn-group-vertical">
-                        <button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_addtype.svg" alt=""></button>
-                        <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/btn/btn_addpost.svg" alt=""></button>
-                        <button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_addimg.svg" alt=""></button>
-                        <hr>
-                        <button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_fullpage.svg" alt=""></button>
-                      </div></div>
-                    </div>
-                    <div class="text-center overflow-auto p-4  " style="max-width: 1020px; max-height: 200px;">
-                      <img style="width:550px ;" src="./plogin_assets-2/img/img_empty_chart.svg" alt="">
-                    </div>
-                    
-                    <p class="text-center">目前沒有轉換結果喔，快到左邊區塊輸入文字吧！</p>
-                    <!-- 第四個彈跳視窗-->
-                    <div  data-aptour='{"title": "4/5", "desc": "💡利用滑桿來調整圖表的樹狀複雜程度", "position": "left"}'>
-                          
+      
+<!-- 圖表-->
+        <div class="row" >
+        <div class="col"></div>
+        <div class="col-9">
+          <div class="text-center overflow-auto p-4  " style="max-width:1300px; max-height: 400px;">
+            <img style="width:550px ;" src="./plogin_assets-2/img/img_empty_chart.svg" alt="">
+          
+          </div>
+          
+          <p class="text-center">目前沒有轉換結果喔，快到左邊區塊輸入文字吧！</p>
+           
+        <div class="text-center overflow-auto"  style="max-width:1300px; max-height: 400px;">
+        <div class="" >
+          <div>
+            </div>
+        </div>
+ 
+  
 
-                      <div class="row">
-                        <div class="col"></div>
-                      </div>
-                      <button type="button" class=" btn btn-light">
-                        <input type="range" class="form-range" id="customRange1">
-                        <label for="customRange1" class="form-label">
-                          <div class="row">
-                            <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
-                            <div class="col-2"></div>
-                            <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
-                          </div>
-                        </label>
-                      </button>  
-                      </div>
-                      <!-- 第五個彈跳視窗-->
-                      <div  data-aptour='{"title": "5/5", "desc": "💡縮放畫面來檢視你的圖表，並且隨時下載到本地端。", "position": "left"}'>
-                        <div class="text-end"><button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
-                          <button type="button" class="btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
-                          <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>   
-                        </div>
-                      </div>
-                    <div class="gutter"></div>
-                  </div>
-                </div>
 
+</div>
+</div>
+<div class="col"  >
+<div style="position:absolute;" data-aptour='{"title": "3/5", "desc": "💡你可以利用編輯工具來新增註解、文字區塊或匯入圖檔。", "position": "left"}' >
+<div class="btn-group-vertical" >
+  <a href="./convert copy 3.html" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_addtype.svg" alt=""></a>
+<button type="button" class=" btn btn-light" ><img src="./plogin_assets-2/btn/btn_addpost.svg" alt=""></button>
+<button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_addimg.svg" alt=""></button>
+<hr>
+<button type="button" class="btn btn-light"><img src="./plogin_assets-2/btn/btn_fullpage.svg" alt=""></button>
+</div></div>
+<br><br> <br><br><br> <br>
+</div>
+</div>
+
+  
+  
+
+
+
+<br>  
+
+ <div class="row">
+  <div class="col">
+    <button data-aptour='{"title": "4/5", "desc": "💡利用滑桿來調整圖表的樹狀複雜程度", "position": "left"}' type="button" class=" btn btn-light">
+    <input type="range" class="form-range text-start" id="customRange1">
+    <label for="customRange1" class="form-label">
+      <div class="row">
+        <div class="col"><img src="./plogin_assets-2/ic_simple.svg"></div>
+        <div class="col-2"></div>
+        <div class="col"><img src="./plogin_assets-2/ic_complicated.svg"></div>
+      </div>
+    </label>
+  </button>  </div>
+  <div class="col"></div>
+  <div class="col" data-aptour='{"title": "5/5", "desc": "💡縮放畫面來檢視你的圖表，並且隨時下載到本地端。", "position": "left"}'> <button  type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-plus.svg" alt=""></button>
+    <button type="button" class=" btn btn-light"><img src="./plogin_assets-2/icon-minus.svg" alt=""></button>
+    <button type="button" class="  btn btn-light"><img src="./plogin_assets-2/ic_exportfile.svg" alt=""></button>
+   </div>
+  
+ 
+</div>
+
+    
+</label>
+
+
+                <div class="gutter"></div>
+              </div>
+            </div>
+          
             
 
+</div>
+<!-- Jumbotron -->
 
+                  
+                      
+
+
+                       
+                 
             
         
-        
-<div class="text-end"> 
-  <br>
-  <a href="./convert第二頁.html" class="btn btn-primary">下一步 ➔</a>
-  </div>
-       
+          <br>
 
-   
 
            
+
 
            
 
          
 
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
 
        
-       
+          <div class="text-end gy-2"> 
+            <a href="./convert第二頁.html" class="btn btn-primary">下一步 ➔</a>
+            </div>
+                 
+          
+                 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-     
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./assets/js/vendor/foundation.min.js"></script>
+     <script src="./assets/js/app.js"></script>
+     <script src="./assets/js/aptour copy.js"></script>
+    <script>
+       $(document).foundation();
+    </script>
+    <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+ 
 
   </footer><!-- End Footer -->
 
@@ -209,60 +281,73 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      <script src="./assets/js/vendor/foundation.min.js"></script>
-       <script src="./assets/js/app.js"></script>
-      <script src="./assets/js/aptour copy.js"></script>
-      <script>
-         $(document).foundation();
-      </script>
-      <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
-      <script  src="./assets/js/resizescript.js"></script>
-
-      <!-- 帳號設定 -->
-      <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-          <div class="modal-content">
-            <div class="modal-header  ">
-              <br>
-              <h5 class="modal-title " id="exampleModalLabel">帳號設定</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <script  src="./assets/js/resizescript.js"></script>
+<!-- 帳號設定 -->
+<div class="modal " id="exampleModal"   >
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header  ">
+        <br>
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="text-center">
+        <br>
+        <h5 class="fw-bold">帳號設定</h5>
+        <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
+      
+      <br>
+    <p href="" class="text-center">變更照片</p>
+    </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <p>名稱</p>
+            <div class="row">
+              <div class="col fw-light">Pin-Han Huang</div>
+              <div class="col"></div>
+              <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
             </div>
-            <div class="text-center">
-              <button type="button" class="btn"><img src="./plogin_assets-2/ic_logout_pic.svg" alt=""></button>
-            
-            <br>
-          <p href="" class="text-center">變更照片</p>
+            <hr>
+           
           </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">名稱</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">電子郵件地址</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">手機號碼</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="mb-3">
-                  <p>你用於登入PLOGIN的服務</p>
-                </div>
-                <div class="d-grid gap-2">
-                
-                  <button type="button" class="btn btn-light"><img src="./plogin_assets-2/ic_google.svg" alt=""> Google</button> </div>
-
-               
-              </form>
+          <div class="mb-3">
+            <p>電子郵件地址</p>
+            <div class="row">
+              <div class="col fw-light">p.hhuang0307@gmail.com</div>
+              <div class="col"></div>
+              <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
             </div>
-  </ul>
-<i class="bi bi-list mobile-nav-toggle"></i>
-</nav><!-- .navbar -->
+            <hr>
+          </div>
+          <div class="mb-3">
+            <p>手機號碼</p>
+            <div class="row">
+              <div class="col fw-light">092632265659</div>
+              <div class="col"></div>
+              <div class="col text-end"><button type="button" class="btn"><img src="./plogin_assets-2/ic_edit.svg" alt=""></button></div>
+            </div>
+            <hr>
+          </div>
+          <div class="mb-3">
+            <p>你用於登入PLOGIN的服務</p>
+          </div>
+          <div class="d-grid gap-2">
+          
+          <button type="button" class="btn btn-light"><img class="text-start" src="./plogin_assets-2/Group 11620.png" alt=""></button> </div>
 
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">確認</button>
+        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">取消</button>
+        
+  
+  </div>
+  
 </div>
+
 </body>
 
 </html>
